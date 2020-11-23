@@ -17,6 +17,7 @@ void bubbleSort(int arr[], int size) {
         sorted = false;
 
         for (int i = 0; i < size; i++) {
+            // If current elem is greater then the next element and current elem is not the last elem
             if ((arr[i] > arr[i+1]) && (i+1 < size)) {
                 swap_elements( arr[i], arr[i+1] );
                 sorted = true;
