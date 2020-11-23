@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// A function which prints a list or array
 void printList(int arr[], int size);
 void printList(vector<int> arr);
 
