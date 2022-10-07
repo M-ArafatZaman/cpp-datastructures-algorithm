@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "printList.h"
 using namespace std;
 
 // A function which splits a string with a delimiter
@@ -32,22 +33,17 @@ vector<string> split(string str, string delimiter = " ") {
     return arr;
 };
 
-void printList(vector<string>& arr) {
-    cout << "[";
-    for (int i = 0; i < arr.size(); i++) {
-        cout << arr[i] << ",";
-    }
-    cout << "]" << endl;
-}
-
 int main() {
 
     string str;
     getline(cin, str);
 
     vector<string> a = split(str, "QT");
+    int b[] = {1,2,3,4,5};
 
-    printList(a);
+    //printList(a);
+
+    //printList(a);
 
 }
 
