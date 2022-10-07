@@ -2,33 +2,31 @@
 #include <vector>
 using namespace std;
 
-// A function which prints a list or array
-void printList(int arr[], int size);
-void printList(vector<int> arr);
+template <class T>
+void printList(vector<T>& arr) {
+    cout << "[";
+    for (auto i : arr) {
+        cout << i << ",";
+    }
+    cout << "\b]" << endl;
+};
+
+template <class T>
+void printList(T& arr) {
+    cout << "[";
+    for (auto i : arr) {
+        cout << i << ",";
+    }
+    cout << "\b]" << endl; 
+};
+
 
 int main() {
 
     int a[] = {1,2,3,4,5};
     vector<int> b = {6, 7,8,9,10};
 
-    printList(a, (sizeof(a))/(sizeof(*a)));
+    printList(a);
     printList(b);
 }
 
-// Print integar array
-void printList(int arr[], int size) {
-    cout << "[";
-    for (int i = 0; i < size; i++) {
-        cout << arr[i] << ",";
-    }
-    cout << "]" << endl;
-};
-
-// Print integar vector
-void printList(vector<int> arr) {
-    cout << "[";
-    for (int i = 0; i < arr.size(); i++) {
-        cout << arr[i] << ",";
-    }
-    cout << "]" << endl;
-}
