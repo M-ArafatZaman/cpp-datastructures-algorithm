@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 
 // A function which splits a string with a delimiter
@@ -31,12 +32,22 @@ vector<string> split(string str, string delimiter = " ") {
     return arr;
 };
 
+void printList(vector<string>& arr) {
+    cout << "[";
+    for (int i = 0; i < arr.size(); i++) {
+        cout << arr[i] << ",";
+    }
+    cout << "]" << endl;
+}
+
 int main() {
 
     string str;
     getline(cin, str);
 
     vector<string> a = split(str, "QT");
+
+    printList(a);
 
 }
 
