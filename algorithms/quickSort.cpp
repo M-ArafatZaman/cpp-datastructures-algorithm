@@ -25,7 +25,7 @@ void swapPointerValues(PointerClass a, PointerClass b) {
 
 // Takes in two pointers, the beginning and the end and quicksorts from the beginning to the end
 template <class IterClass>
-void quickSort(IterClass begin, IterClass end, bool exec=true) {
+void quickSort(IterClass begin, IterClass end) {
     // If there is just one element
     if (begin == end) return;
 
@@ -50,8 +50,8 @@ void quickSort(IterClass begin, IterClass end, bool exec=true) {
     swapPointerValues(low, pivot);
 
     // Quick sort the two partitions
-    quickSort(begin, low, true);
-    quickSort(low+1, end, true);
+    quickSort(begin, low);
+    quickSort(low+1, end);
 
 };
 
