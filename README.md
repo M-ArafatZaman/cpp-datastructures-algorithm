@@ -4,14 +4,14 @@ Some basic data structures and algorithms implemented in C++
 ---
 
 # Table of contents
-- [Algorithms](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/edit/main/README.md#algorithms)
-  - [Binary search](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/edit/main/README.md#binarysearch)
-  - [Bubble sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/edit/main/README.md#bubblesort)
-  - [Merge sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/edit/main/README.md#mergesort)
-  - [Quick sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/edit/main/README.md#quicksort)
-- [Methods](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/edit/main/README.md#methods)
-  - [Print list](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/edit/main/README.md#printlist)
-  - [Split](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/edit/main/README.md#split)
+- [Algorithms](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#algorithms)
+  - [Binary search](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#binarysearch)
+  - [Bubble sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#bubblesort)
+  - [Merge sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#mergesort)
+  - [Quick sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#quicksort)
+- [Methods](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#methods)
+  - [Print list](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#printlist)
+  - [Split](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#split)
 
 
 ---
