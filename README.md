@@ -7,6 +7,7 @@ Some basic data structures and algorithms implemented in C++
 - [Algorithms](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#algorithms)
   - [Binary search](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#binarysearch)
   - [Bubble sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#bubblesort)
+  - [Insertion sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#insertionsort)
   - [Merge sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#mergesort)
   - [Quick sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#quicksort)
 - [Methods](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#methods)
@@ -63,6 +64,32 @@ void bubbleSort(int arr[], int size);
 ```cpp
 int a[] = {4,3,2,5,6};
 bubbleSort(a, 5);
+```
+```
+Output >> {2,3,4,5,6}
+```
+
+---
+
+### `insertionSort()`
+
+[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/blob/main/algorithms/insertionSort.cpp)
+
+This function sorts an integer array using insertion sort.
+
+**Explanataion video by geeksforgeeks**
+[![Insertion sort explanation video by geeksforgeeks](https://img.youtube.com/vi/OGzPmgsI-pQ/0.jpg)](https://www.youtube.com/watch?v=OGzPmgsI-pQ)
+
+**Function definition**
+```cpp
+template <class IterClass>
+void insertionSort(IterClass begin, IterClass end);
+```
+
+**Example usage**
+```cpp
+vector<int> a = {4,3,2,5,6};
+insertionSort(a.begin(), a.end());
 ```
 ```
 Output >> {2,3,4,5,6}
