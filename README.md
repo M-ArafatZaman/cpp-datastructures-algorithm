@@ -77,7 +77,8 @@ Output >> {2,3,4,5,6}
 
 This function sorts an integer array using insertion sort.
 
-**Explanataion video by geeksforgeeks**
+**Explanation video by geeksforgeeks**
+
 [![Insertion sort explanation video by geeksforgeeks](https://img.youtube.com/vi/OGzPmgsI-pQ/0.jpg)](https://www.youtube.com/watch?v=OGzPmgsI-pQ)
 
 **Function definition**
