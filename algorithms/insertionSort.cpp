@@ -61,7 +61,7 @@ void test_runner() {
     vector<int> b = {1,2,3,5,6,7,8,9,10};
     
     insertionSort(a.begin(), a.end());
-    if (a != b) throw FailedTest("Quicksort could not properly sort the given array.");
+    if (a != b) throw FailedTest("Insertion sort could not properly sort the given array.");
  
     cout << "All test passed!" << endl;
 
