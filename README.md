@@ -21,7 +21,7 @@ Some basic data structures and algorithms implemented in C++
 
 ### `binarySearch()`
 
-[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/blob/main/algorithms/binarySearch.cpp)
+[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](./algorithms/binarySearch.cpp)
 
 This function performs a binary search on an *already sorted* vector and return the index in an integer format or `-1` if nothing is found.
 
