@@ -50,13 +50,27 @@ void selectionSort(RandomAccessIterator begin, RandomAccessIterator end) {
 
 };
 
+// ==== TESTS =====
+// Test runner exception
+class FailedTest: public exception {
+    public:
+        FailedTest(string err) {
+            cout << err << endl;
+        }
+};
+
+void test_runner() {
+    vector<int> a = {3,4,1,5,2};
+    vector<int> _a = {1,2,3,4,5};
+    selectionSort(a.begin(), a.end());
+    if (a != _a) throw FailedTest("SelectionSort failed to sort properly.");
+
+    cout << "All tests passed!" << endl;
+}
+
 int main() {
 
-    vector<int> a = {3,4,1,5,2};
-
-    print_v(a);
-    selectionSort(a.begin(), a.end());
-    print_v(a);
+    test_runner();
  
     return 0;
 }
