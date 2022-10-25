@@ -48,7 +48,7 @@ Output >> 1
 
 ### `bubbleSort()`
 
-[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/blob/main/algorithms/bubbleSort.cpp)
+[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](./algorithms/bubbleSort.cpp)
 
 This function sorts an integer array using bubble sort.
 
@@ -74,7 +74,7 @@ Output >> {2,3,4,5,6}
 
 ### `insertionSort()`
 
-[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/blob/main/algorithms/insertionSort.cpp)
+[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](./algorithms/insertionSort.cpp)
 
 This function sorts an integer array using insertion sort.
 
@@ -101,7 +101,7 @@ Output >> {2,3,4,5,6}
 
 ### `mergeSort()`
 
-[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/blob/main/algorithms/mergeSort.cpp)
+[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](./algorithms/mergeSort.cpp)
 
 This function sorts a vector array using merge sort.
 
@@ -128,7 +128,7 @@ Output >> {1,2,3,5,6,7}
 
 ### `quickSort()`
 
-[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/blob/main/algorithms/quickSort.cpp)
+[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](./algorithms/quickSort.cpp)
 
 This function sorts a vector array using quick sort.
 
@@ -155,7 +155,7 @@ Output >> {1,2,3,5,6,7}
 
 ### `selectionSort()`
 
-[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/blob/main/algorithms/selectionSort.cpp)
+[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](./algorithms/selectionSort.cpp)
 
 This function sorts a vector array using selection sort.
 
@@ -184,7 +184,7 @@ Output >> {1,2,3,5,6,7}
 
 ### `printList()`
 
-[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/blob/main/methods/printList.cpp)
+[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](./methods/printList.cpp)
 
 This prints a vector or an integar list in the terminal.
 
@@ -214,7 +214,7 @@ Output >>
 ---
 ### `split()`
 
-[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/blob/main/methods/split.cpp)
+[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](./methods/split.cpp)
 
 This prints a vector or an integar list in the terminal.
 
