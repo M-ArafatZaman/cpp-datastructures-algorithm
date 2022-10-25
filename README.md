@@ -10,6 +10,7 @@ Some basic data structures and algorithms implemented in C++
   - [Insertion sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#insertionsort)
   - [Merge sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#mergesort)
   - [Quick sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#quicksort)
+  - [Selection sort](#selectionsort)
 - [Methods](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#methods)
   - [Print list](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#printlist)
   - [Split](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#split)
@@ -145,6 +146,33 @@ void quickSort(IterClass begin, IterClass end);
 ```cpp
 vector<int> a = {3,5,1,2,7,6};
 mergeSort(a.begin(), a.end());
+```
+```
+Output >> {1,2,3,5,6,7}
+```
+
+---
+
+### `selectionSort()`
+
+[<img src="https://i.imgur.com/QAPiuXJ.png" height="32px" />](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm/blob/main/algorithms/selectionSort.cpp)
+
+This function sorts a vector array using selection sort.
+
+**Explanation video by geeksforgeeks**
+
+[![Selection sort explanation video by geeksforgeeks](https://img.youtube.com/vi/xWBP4lzkoyM/0.jpg)](https://youtu.be/xWBP4lzkoyM)
+
+**Function definition**
+```cpp
+template <class RandomAccessIterator>
+void selectionSort(RandomAccessIterator begin, RandomAccessIterator end);
+```
+
+**Example usage**
+```cpp
+vector<int> a = {3,5,1,2,7,6};
+selectionSort(a.begin(), a.end());
 ```
 ```
 Output >> {1,2,3,5,6,7}
