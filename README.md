@@ -4,16 +4,16 @@ Some basic data structures and algorithms implemented in C++
 ---
 
 # Table of contents
-- [Algorithms](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#algorithms)
-  - [Binary search](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#binarysearch)
-  - [Bubble sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#bubblesort)
-  - [Insertion sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#insertionsort)
-  - [Merge sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#mergesort)
-  - [Quick sort](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#quicksort)
+- [Algorithms](#algorithms)
+  - [Binary search](#binarysearch)
+  - [Bubble sort](#bubblesort)
+  - [Insertion sort](#insertionsort)
+  - [Merge sort](#mergesort)
+  - [Quick sort](#quicksort)
   - [Selection sort](#selectionsort)
-- [Methods](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#methods)
-  - [Print list](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#printlist)
-  - [Split](https://github.com/M-ArafatZaman/cpp-datastructures-algorithm#split)
+- [Methods](#methods)
+  - [Print list](#printlist)
+  - [Split](#split)
 
 
 ---
