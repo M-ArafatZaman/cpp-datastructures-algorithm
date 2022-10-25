@@ -145,7 +145,7 @@ void quickSort(IterClass begin, IterClass end);
 **Example usage**
 ```cpp
 vector<int> a = {3,5,1,2,7,6};
-mergeSort(a.begin(), a.end());
+quickSort(a.begin(), a.end());
 ```
 ```
 Output >> {1,2,3,5,6,7}
