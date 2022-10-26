@@ -2,8 +2,8 @@
 #include <vector>
 using namespace std;
 
-template <class T> void printList(vector<T>& arr);
+template <class T> 
+void printList(vector<T>& arr);
 
-//template <class T> void printList(T & arr);
-
-int add(int a, int b);
+template <class T> 
+void printList(T & arr);
