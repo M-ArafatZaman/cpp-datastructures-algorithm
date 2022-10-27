@@ -26,11 +26,11 @@ void swapPointerValues(PointerClass a, PointerClass b) {
 
 
 // Insertion sort function
-template <class IterClass>
-void insertionSort(IterClass begin, IterClass end) {
+template <class RandomAccessIterator>
+void insertionSort(RandomAccessIterator begin, RandomAccessIterator end) {
     // Store the sorted part
-    IterClass sorted = begin + 1;
-    IterClass curr = sorted;
+    RandomAccessIterator sorted = begin + 1;
+    RandomAccessIterator curr = sorted;
 
     while (sorted < end) {
         curr = sorted;
