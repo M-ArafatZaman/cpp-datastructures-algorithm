@@ -7,10 +7,10 @@ using namespace std;
 
 
 // Function which takes 2 points, and binary search for a value between those two pointers
-template <class TypeIterator, class T>
-int binarySearch(TypeIterator it_f, TypeIterator it_s, T value) {
-    const TypeIterator begin = it_f;
-    const TypeIterator end = it_s;
+template <class RandomAccessIterator, class T>
+int binarySearch(RandomAccessIterator it_f, RandomAccessIterator it_s, T value) {
+    const RandomAccessIterator begin = it_f;
+    const RandomAccessIterator end = it_s;
     
     if(*it_f == value) return 0;
 
