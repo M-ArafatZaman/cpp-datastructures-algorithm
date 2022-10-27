@@ -24,15 +24,15 @@ void swapPointerValues(PointerClass a, PointerClass b) {
 }
 
 // Takes in two pointers, the beginning and the end and quicksorts from the beginning to the end
-template <class IterClass>
-void quickSort(IterClass begin, IterClass end) {
+template <class RandomAccessIterator>
+void quickSort(RandomAccessIterator begin, RandomAccessIterator end) {
     // If there is just one element
     if (begin == end) return;
 
     // The pivot is taken to be the end
-    IterClass pivot = end-1;
-    IterClass low = begin;
-    IterClass high = pivot-1;
+    RandomAccessIterator pivot = end-1;
+    RandomAccessIterator low = begin;
+    RandomAccessIterator high = pivot-1;
 
     // High values are meant to be greater than pivot
     while (low <= high) {
