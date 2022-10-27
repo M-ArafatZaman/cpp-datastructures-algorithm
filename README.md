@@ -31,8 +31,8 @@ This function performs a binary search on an *already sorted* vector and return 
 
 **Function definition** 
 ```cpp
-template <class TypeIterator, class T>
-int binarySearch(TypeIterator it_f, TypeIterator it_s, T value);
+template <class RandomAccessIterator, class T>
+int binarySearch(RandomAccessIterator it_f, RandomAccessIterator it_s, T value);
 ```
 
 **Example usage**
@@ -84,8 +84,8 @@ This function sorts an integer array using insertion sort.
 
 **Function definition**
 ```cpp
-template <class IterClass>
-void insertionSort(IterClass begin, IterClass end);
+template <class RandomAccessIterator>
+void insertionSort(RandomAccessIterator begin, RandomAccessIterator end);
 ```
 
 **Example usage**
@@ -138,8 +138,8 @@ This function sorts a vector array using quick sort.
 
 **Function definition**
 ```cpp
-template <class IterClass>
-void quickSort(IterClass begin, IterClass end);
+template <class RandomAccessIterator>
+void quickSort(RandomAccessIterator begin, RandomAccessIterator end);
 ```
 
 **Example usage**
